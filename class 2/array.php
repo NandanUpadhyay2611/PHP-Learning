@@ -1,8 +1,13 @@
 <?php
+
 $x=["Zen","Maruti","Fiat"];
+
+$car=array("bmx","bbt");
 echo $x[0];
 echo "<br>";
+
 echo $x[1];
+
 echo "<br>";
 echo $x[2];
 echo "<br>";
@@ -17,6 +22,12 @@ for($i=0;$i<(sizeof($x));$i++){
     else if($nums[$i]<$mini) $mini=$nums[$i];
 }
 
+foreach ($ as $key => $value) {
+    # code...
+}
+
 echo "Max element in the array Nums: ".$maxi."<br>";
+
 echo "Min element in the array Nums: ".$mini."<br>";
+
 ?>
