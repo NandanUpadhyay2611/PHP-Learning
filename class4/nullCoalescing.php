@@ -1,0 +1,11 @@
+<?php
+
+$x=null;
+$y=null;
+$z=22;
+$u=null;
+
+echo $x ?? $y ?? $z ?? $u ?? "No value assigned";
+
+
+?>
